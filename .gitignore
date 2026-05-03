@@ -1,0 +1,21 @@
+# Unreal Engine generated directories
+Binaries/
+Intermediate/
+DerivedDataCache/
+Saved/
+
+# Visual Studio
+.vs/
+*.sln
+*.suo
+*.user
+*.VC.db
+*.VC.opendb
+
+# Rider / CLion
+.idea/
+cmake-build-*/
+
+# OS
+.DS_Store
+Thumbs.db

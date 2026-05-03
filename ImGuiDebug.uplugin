@@ -1,0 +1,16 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "ImGui Debug",
+	"Description": "Debug overlay using Dear ImGui (ocornut/imgui)",
+	"Category": "Debug",
+	"CanContainContent": false,
+	"Modules": [
+		{
+			"Name": "ImGuiDebug",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
