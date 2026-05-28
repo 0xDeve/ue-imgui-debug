@@ -9,8 +9,7 @@
 
 bool UImGuiDebugSubsystem::ShouldCreateSubsystem(UObject* Outer) const
 {
-#if WITH_EDITOR
-	// Only create in editor builds (PIE mode) - not in standalone or packaged builds
+#if !UE_BUILD_SHIPPING
 	return Super::ShouldCreateSubsystem(Outer);
 #else
 	return false;
